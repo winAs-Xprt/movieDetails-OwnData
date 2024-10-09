@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* New Card Styles */
+.movie-card {
+  background-color: #3a3f47; /* Card background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the card */
+  margin: 15px; /* Margin between cards */
+  width: 320px; /* Fixed width for the cards */
+  color: #ffffff; /* Text color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+  transition: transform 0.2s; /* Animation for hover effect */
+}
+
+.movie-card:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+.movie-card img {
+  border-radius: 5px; /* Rounded corners for images */
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.movie-title {
+  font-size: 1.5em; /* Title size */
+  margin: 10px 0; /* Margin around the title */
+}
+
+.movie-info {
+  font-size: 0.9em; /* Smaller font size for details */
+  line-height: 1.4; /* Line height for readability */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

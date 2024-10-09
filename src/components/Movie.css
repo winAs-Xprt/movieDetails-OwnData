@@ -1,0 +1,41 @@
+body {
+    background-color: #141414; /* Dark background for the entire page */
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Clean font */
+    color: white; /* Default text color */
+}
+
+h1 {
+    color: #ffffff; /* Title color */
+}
+
+.movie-card {
+    background-color: #3a3f47; /* Card background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    margin: 15px; /* Margin between cards */
+    width: 320px; /* Fixed width for the cards */
+    color: #ffffff; /* Text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+    transition: transform 0.2s; /* Animation for hover effect */
+}
+
+.movie-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.movie-card img {
+    border-radius: 5px; /* Rounded corners for images */
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.movie-title {
+    font-size: 1.5em; /* Title size */
+    margin: 10px 0; /* Margin around the title */
+}
+
+.movie-info {
+    font-size: 0.9em; /* Smaller font size for details */
+    line-height: 1.4; /* Line height for readability */
+}
